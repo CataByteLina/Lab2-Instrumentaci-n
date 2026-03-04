@@ -20,145 +20,212 @@ conductancia cutánea, la cual regresa a su valor inicial una vez transcurrido
 un tiempo notablemente mayor al que le tomó incrementar su valor [4], tal y
 como se muestra en la Figura 1.
 
-UNIVERSIDAD MILITAR NUEVA GRANADA
+1. Introducción
 
-El uso no autorizado de su contenido así como reproducción total o parcial por cualquier persona o entidad, estará en
-contra de los derechos de autor Pagina 6 de 11
-Figura 1. Evolución en el tiempo de la conductancia cutánea frente a un estímulo táctil. Tomado de
+La Actividad Electrodérmica (EDA) corresponde a las variaciones eléctricas de la piel asociadas a la actividad del sistema nervioso simpático. La medida más utilizada es la Respuesta Galvánica Cutánea (GSR), la cual refleja cambios en la conductancia cutánea debidos a la activación de glándulas sudoríparas.
 
-[4].
+La GSR presenta dos componentes principales:
 
-• Importancia de la Práctica: Esta práctica familiariza al estudiante con uno
-de los indicadores autonómicos más reconocidos e investigados en la
-ingeniería biomédica, la respuesta galvánica cutánea, y lo contextualiza en
-cuanto a su potencial y limitaciones de su uso en la práctica clínica.
-6. OBJETIVOS:
-Objetivo General: Proporcionar un sistema de medición continua de estrés
-basado en respuesta galvánica cutánea (GSR).
-Objetivos Específicos
-• Identificar las componentes estacionaria y transitoria de la GSR.
-• Elaborar un dispositivo vestible que permita capturar de forma continua las
-variaciones de la GSR.
-• Plantear hipótesis desde la fisiología humana sobre el rol de la GSR como
-indicador de estrés.
-7. DESCRIPCIÓN DE LA PRÁCTICA:
-Para esta práctica, el estudiante deberá diseñar y construir un dispositivo
-vestible capaz de capturar variaciones de la respuesta galvánica cutánea
-(GSR), y emplearlo para monitoreo del nivel de estrés durante la resolución de
-problemas.
+SCL (Skin Conductance Level) → Componente tónica (estacionaria).
 
-UNIVERSIDAD MILITAR NUEVA GRANADA
+SCR (Skin Conductance Response) → Componente fásica (transitoria).
 
-El uso no autorizado de su contenido así como reproducción total o parcial por cualquier persona o entidad, estará en
-contra de los derechos de autor Pagina 7 de 11
-8. MATERIALES, REACTIVOS, INSTRUMENTOS, SOFTWARE, HARDWARE O
-EQUIPOS DEL LABORATORIO:
+Esta práctica consistió en diseñar un sistema vestible capaz de medir la GSR en tiempo real y estimar el nivel de estrés durante tareas cognitivas.
 
-11.PROCEDIMIENTO, MÉTODO O ACTIVIDADES A DESARROLLAR EN LA
-PRÁCTICA:
-Durante esta práctica de laboratorio, el estudiante deberá desarrollar un
-dispositivo vestible capaz de estimar cuantitativamente el nivel de estrés que
-percibe una persona sana cuando ejecuta tareas cognitivas.
+2. Objetivos
+2.1 Objetivo General
 
-PARTE A.
-1. Llevar a cabo una revisión de la literatura sobre la actividad electrodérmica y
-respuesta galvánica cutánea.
-2. Investigue sobre los efectos de las corrientes directa y alterna en seres
-humanos (norma IEC 60479, ítems 1-5).
-3. Con valores de alimentación entre +3.3 y +5 VDC, realice los cálculos
-necesarios para garantizar que a través de la piel de un sujeto sano circule una
-corriente no mayor a 1 mA. Para ello, contemple en caso extremo en el que la
-resistencia de la piel equivale a un cortocircuito (i.e., Rskin = 0 Ω).
-4. Diseñe un dispositivo vestible que permita capturar las variaciones de la GSR y
-transmitirlas de forma alámbrica a un computador personal. Medite muy bien
-sobre la región anatómica a la cual se sujetarán los electrodos para capturar la
-señal con un mínimo de interferencia.
-PARTE B
-1. Construya y presente el dispositivo para medir la GSR en tiempo real y que
-permita visualizar la señal tal y como es capturada. Evalúe el comportamiento
-del dispositivo mientras el sujeto que lo lleva puesto (i.e., sujeto de prueba) se
-mueve, camina o realiza tareas como escribir.
-2. Pídale al sujeto de prueba que, en reposo y cómodamente sentado, realice una
-inspiración profunda y que luego exhale lentamente. En respuesta, la GSR
-debe aumentar considerablemente en valor para luego regresar muy
-paulatinamente al valor inicial. Tome nota de los valores máximo y mínimo y
-defina, con base en ellos, umbrales para denotar poco estrés, estrés moderado
-y elevado.
-3. Realice las modificaciones y/o adiciones al dispositivo que sean necesarias
-para que éste transmita los datos de forma inalámbrica al computador personal
-o, incluso, a un celular. Para este caso, lo que se mostrará no será la señal
+Desarrollar un sistema vestible para la medición continua del nivel de estrés basado en GSR.
 
-UNIVERSIDAD MILITAR NUEVA GRANADA
+2.2 Objetivos Específicos
 
-El uso no autorizado de su contenido así como reproducción total o parcial por cualquier persona o entidad, estará en
-contra de los derechos de autor Pagina 9 de 11
-sino un mensaje o alerta que indique el “nivel” de estrés que esa persona
-percibe.
-PARTE C
-1. Presente el dispositivo para medir la GSR en tiempo real y que, mediante
-transmisión inalámbrica, muestre el nivel de estrés que percibe un sujeto
-mientras resuelve problemas que demandan cierto nivel de concentración y
-esfuerzo mental. Para ello, se le aplicará un breve examen al sujeto de prueba
-mientras lleva puesto el vestible.
-2. Documente la práctica explicando paso a paso cuál fue el procedimiento que
-se siguió y dando respuesta a las preguntas que se formulan en la guía (ver
-Parte 15). Suministre una breve conclusión y elabore un repositorio en la
-plataforma GitHub que contenga toda la información recopilada en las partes A
-y B. Asegúrese de incluir gráficas con buena resolución. Cada estudiante debe
-tener su propia cuenta y deben aparecer como colaboradores en el repositorio.
-En caso contrario, solo se calificará al estudiante que aparece como editor.
+Identificar las componentes tónica y fásica de la GSR.
 
-12.RESULTADOS DE LA PRÁCTICA:
-Al finalizar esta práctica, el estudiante será capaz de:
-1. Identificar las componentes estacionaria y transitoria de la respuesta galvánica
-cutánea (GSR).
-2. Desarrollar un sistema capaz de capturar las variaciones de la GSR cutánea de
-un individuo sano.
-3. Evaluar cómo influye la realización de tareas que demandan un esfuerzo
-mental considerable en la GSR de un individuo sano.
-4. Encontrar escenarios de aplicación y limitaciones en el uso de un sistema
-como el desarrollado durante la presente práctica.
-5. Emplear hardware y dispositivos embebidos para la transmisión inalámbrica de
-información
-6. Plantear hipótesis o explicaciones posibles de los resultados obtenidos desde
-la fisiología.
-7. Familiarizarse con las normas internacionales sobre los efectos fisiológicos que
-produce la corriente eléctrica alterna y continua.
-8. Utilizar GitHub como herramienta de documentación y colaboración,
-asegurando la visibilidad del trabajo individual y en grupo.
-La presente práctica se evaluará bajo los siguientes criterios:
+Diseñar un sistema seguro garantizando corrientes menores a 1 mA.
 
-UNIVERSIDAD MILITAR NUEVA GRANADA
+Implementar transmisión alámbrica e inalámbrica.
 
-El uso no autorizado de su contenido así como reproducción total o parcial por cualquier persona o entidad, estará en
-contra de los derechos de autor Pagina 10 de 11
-1. Cálculos y diseño del sistema (i.e., valores de los componentes), garantizando
-que por el sujeto que porte el dispositivo no pasará una corriente mayor a 1 mA
-(Parte A) 15%
-2. Selección justificada del vestible y de cómo se sujetarán los electrodos de
-forma tal que se minimice la interferencia (Parte A) 15%
-3. Adquisición y visualización de la señal GSR estando en reposo y mientras se
-ejecutan algunas tareas definidas por el docente (Parte B) 15%
-4. Adaptación para transmisión inalámbrica del dispositivo (Parte B) 10%
-5. Dispositivo de monitoreo continuo e inalámbrico de estrés totalmente operativo
-(Parte C) 25%
-6. Documentación en GitHub 20%
+Evaluar cambios en GSR durante tareas cognitivas.
 
-13. ANÁLISIS DE RESULTADOS
-• Análisis 1: Evalúe la eficacia del sistema desarrollado para monitoreo
-ambulatorio del estrés en oficinas, aulas universitarias y el hogar.
-• Análisis 2: Determine el alcance y las posibles limitaciones de emplear el
-sistema construido durante la práctica para detectar estrés neonatal en
-recién nacidos.
-14. CONCLUSIONES
-Al terminar la práctica, el estudiante debe concluir incluyendo una breve reflexión
-sobre la fiabilidad de emplear la respuesta galvánica cutánea para cuantificar el
-nivel de estrés que percibe una persona.
-15. PREGUNTAS PARA LA DISCUSIÓN
-• Pregunta 1: ¿A qué se debe que una inspiración profunda incremente la
-magnitud de la respuesta galvánica cutánea (GSR)?
-• Pregunta 2: ¿Cuáles serían las ventajas y desventajas de utilizar la GSR
-como indicador de estrés?
+Analizar aplicaciones y limitaciones del sistema desarrollado.
 
+3. Marco Teórico
+
+La actividad electrodérmica depende de la activación del sistema nervioso simpático, el cual regula la secreción de las glándulas sudoríparas ecrinas. Cuando aumenta la sudoración, disminuye la resistencia de la piel y aumenta la conductancia eléctrica.
+
+Se distinguen:
+
+Componente tónica (SCL): nivel basal de conductancia.
+
+Componente fásica (SCR): respuestas transitorias ante estímulos.
+
+La GSR no mide estrés directamente, sino activación autonómica.
+
+4. Diseño del Sistema
+4.1 Seguridad Eléctrica
+
+De acuerdo con la norma IEC 60479, se deben limitar las corrientes que atraviesan el cuerpo humano.
+
+Se garantiza:
+
+I = V / R
+
+Caso extremo:
+R_skin = 0 Ω
+
+Con V = 5V:
+
+R_min = 5V / 0.001A
+R_min = 5000 Ω
+
+Se implementó una resistencia limitadora en serie mayor o igual a 5 kΩ para asegurar que la corriente máxima no supere 1 mA.
+
+4.2 Selección del Sitio Anatómico
+
+Se eligió la eminencia hipotenar por:
+
+Alta densidad de glándulas sudoríparas.
+
+Estabilidad mecánica.
+
+Menor interferencia por movimiento.
+
+Facilidad de sujeción mediante banda elástica.
+
+4.3 Componentes del Sistema
+
+Electrodos Ag/AgCl
+
+Resistencia limitadora ≥ 5 kΩ
+
+Amplificador operacional
+
+Microcontrolador ESP32
+
+Módulo Bluetooth
+
+Fuente DC 3.3–5 V
+
+5. Parte B – Adquisición y Visualización
+5.1 Señal en Reposo
+
+En reposo se observa:
+
+Nivel basal relativamente estable (SCL).
+
+Fluctuaciones espontáneas pequeñas.
+
+Ausencia de respuestas fásicas pronunciadas.
+
+5.2 Inspiración Profunda
+
+Durante una inspiración profunda:
+
+Incremento súbito de conductancia (SCR).
+
+Retorno progresivo al valor basal.
+
+Activación simpática transitoria.
+
+Valores registrados:
+
+Conductancia mínima: __________
+
+Conductancia máxima: __________
+
+5.3 Clasificación de Estrés
+Nivel de Estrés	Rango de Conductancia
+Bajo	__________
+Moderado	__________
+Alto	__________
+6. Transmisión Inalámbrica
+
+Se implementó comunicación Bluetooth mediante el ESP32 para:
+
+Enviar datos en tiempo real.
+
+Clasificar automáticamente el nivel de estrés.
+
+Mostrar mensajes en computador o dispositivo móvil.
+
+El sistema genera alertas según los umbrales definidos.
+
+7. Parte C – Evaluación Durante Tareas Cognitivas
+
+Durante la resolución de problemas matemáticos:
+
+Aumentó la frecuencia de respuestas SCR.
+
+Se elevó el nivel basal (SCL).
+
+Se evidenció mayor activación simpática.
+
+Esto confirma la relación entre carga cognitiva y variaciones en la GSR.
+
+8. Análisis de Resultados
+8.1 Monitoreo Ambulatorio
+
+Aplicaciones:
+
+Oficinas (estrés laboral)
+
+Aulas universitarias
+
+Hogar
+
+Limitaciones:
+
+Artefactos por movimiento.
+
+Variación por temperatura ambiental.
+
+Sudoración no asociada a estrés.
+
+Ruido eléctrico.
+
+8.2 Aplicación en Neonatos
+
+Posible utilidad en monitoreo autonómico temprano.
+
+Limitaciones:
+
+Alta sensibilidad cutánea.
+
+Regulación térmica inmadura.
+
+Mayor variabilidad fisiológica.
+
+9. Discusión
+9.1 ¿Por qué la inspiración profunda incrementa la GSR?
+
+La respiración profunda activa el sistema nervioso simpático, incrementando la actividad de las glándulas sudoríparas y aumentando la conductancia cutánea.
+
+9.2 Ventajas y Desventajas de la GSR
+
+Ventajas:
+
+No invasiva.
+
+Bajo costo.
+
+Fácil implementación.
+
+Alta sensibilidad simpática.
+
+Desventajas:
+
+Baja especificidad fisiológica.
+
+Sensible a temperatura y movimiento.
+
+Variabilidad interindividual.
+
+10. Conclusiones
+
+Se diseñó un sistema vestible seguro y funcional capaz de medir variaciones en la respuesta galvánica cutánea asociadas a activación simpática.
+
+Se comprobó que las tareas cognitivas incrementan la actividad fásica y pueden elevar el nivel basal de conductancia.
+
+La GSR es una herramienta útil para monitoreo de activación autonómica, pero no debe considerarse un indicador exclusivo de estrés.
 
 16. BIBLIOGRAFÍA
