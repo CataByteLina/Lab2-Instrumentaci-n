@@ -1,6 +1,13 @@
-# Lab2-Instrumentaci-n
-Lab 2
 
+# LAB 2 – Instrumentación Biomédica  
+## Sistema Vestible para Monitoreo de Estrés Basado en GSR  
+
+**Universidad Militar Nueva Granada**  
+Ingeniería Biomédica  
+
+---
+
+## 1. Introducción
 
 La eminencia hipotenar
 <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/5383abdb-2b62-4c1b-8d49-b0c9fcd99ede" />
@@ -19,15 +26,6 @@ Estas fluctuaciones suelen presentarse como un incremento súbito en la
 conductancia cutánea, la cual regresa a su valor inicial una vez transcurrido
 un tiempo notablemente mayor al que le tomó incrementar su valor [4], tal y
 como se muestra en la Figura 1.
-# LAB 2 – Instrumentación Biomédica  
-## Sistema Vestible para Monitoreo de Estrés Basado en GSR  
-
-**Universidad Militar Nueva Granada**  
-Ingeniería Biomédica  
-
----
-
-## 1. Introducción
 
 La Actividad Electrodérmica (EDA) corresponde a las variaciones eléctricas de la piel asociadas a la actividad del sistema nervioso simpático. La medida más utilizada es la **Respuesta Galvánica Cutánea (GSR)**, la cual refleja cambios en la conductancia cutánea debidos a la activación de las glándulas sudoríparas.
 
