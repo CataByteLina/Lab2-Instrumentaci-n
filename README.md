@@ -27,16 +27,15 @@ conductancia cutánea, la cual regresa a su valor inicial una vez transcurrido
 un tiempo notablemente mayor al que le tomó incrementar su valor [4], tal y
 como se muestra en la Figura 1.
 
-La Actividad Electrodérmica (EDA) corresponde a las variaciones eléctricas de la piel asociadas a la actividad del sistema nervioso simpático. La medida más utilizada es la **Respuesta Galvánica Cutánea (GSR)**, la cual refleja cambios en la conductancia cutánea debidos a la activación de las glándulas sudoríparas.
+La Actividad Electrodérmica (EDA) corresponde a las variaciones eléctricas de la piel asociadas a la actividad del sistema nervioso simpático. La medida más utilizada es la Respuesta Galvánica Cutánea (GSR), la cual refleja cambios en la conductancia cutánea debidos a la activación de las glándulas sudoríparas.
 
 La GSR presenta dos componentes principales:
 
-- **SCL (Skin Conductance Level)** → Componente tónica (estacionaria).
-- **SCR (Skin Conductance Response)** → Componente fásica (transitoria).
+- SCL (Skin Conductance Level) → Componente tónica (estacionaria).
+- SCR (Skin Conductance Response) → Componente fásica (transitoria).
 
 Esta práctica consistió en diseñar un sistema vestible capaz de medir la GSR en tiempo real y estimar el nivel de estrés durante tareas cognitivas.
 
----
 
 ## 2. Objetivos
 
@@ -52,7 +51,6 @@ Desarrollar un sistema vestible para la medición continua del nivel de estrés 
 - Evaluar cambios en GSR durante tareas cognitivas.
 - Analizar aplicaciones y limitaciones del sistema desarrollado.
 
----
 
 ## 3. Marco Teórico
 
@@ -65,7 +63,6 @@ Se distinguen:
 
 La GSR no mide estrés directamente, sino activación autonómica.
 
----
 
 ## 4. Diseño del Sistema
 
@@ -83,26 +80,25 @@ Caso extremo:
 R_skin = 0 Ω
 
 
-Con una alimentación de 5 V:
+Con una alimentación de 5V:
 
 
 R_min = 5V / 0.001A
-R_min = 5000 Ω
+R_min = 5000Ω
 
 
-Se implementó una **resistencia limitadora ≥ 5 kΩ en serie** para garantizar que la corriente máxima no supere 1 mA.
+Se implementó una resistencia limitadora ≥ 5 kΩ en serie para garantizar que la corriente máxima no supere 1 mA.
 
----
+
 ### 4.2 Selección del Sitio Anatómico
 
-Se eligió la **eminencia hipotenar** por:
+Se eligió la eminencia hipotenar por:
 
 - Alta densidad de glándulas sudoríparas.
 - Estabilidad mecánica.
 - Menor interferencia por movimiento.
 - Facilidad de sujeción mediante banda elástica.
 
----
 
 ### 4.3 Componentes del Sistema
 
@@ -113,7 +109,6 @@ Se eligió la **eminencia hipotenar** por:
 - Módulo Bluetooth
 - Fuente DC 3.3–5 V
 
----
 
 ## 5. Parte B – Adquisición y Visualización
 
@@ -146,7 +141,6 @@ Valores registrados:
 | Moderado        | __________            |
 | Alto            | __________            |
 
----
 
 ## 6. Transmisión Inalámbrica
 
@@ -158,7 +152,6 @@ Se implementó comunicación Bluetooth mediante el ESP32 para:
 
 El sistema genera alertas según los umbrales definidos.
 
----
 
 ## 7. Parte C – Evaluación Durante Tareas Cognitivas
 
@@ -170,7 +163,6 @@ Durante la resolución de problemas matemáticos:
 
 Esto confirma la relación entre carga cognitiva y variaciones en la GSR.
 
----
 
 ## 8. Análisis de Resultados
 
@@ -199,7 +191,6 @@ Limitaciones:
 - Regulación térmica inmadura.
 - Mayor variabilidad fisiológica.
 
----
 
 ## 9. Discusión
 
@@ -209,20 +200,19 @@ La respiración profunda activa el sistema nervioso simpático, incrementando la
 
 ### 9.2 Ventajas y Desventajas de la GSR
 
-**Ventajas:**
+Ventajas:
 
 - No invasiva.
 - Bajo costo.
 - Fácil implementación.
 - Alta sensibilidad simpática.
 
-**Desventajas:**
+Desventajas:
 
 - Baja especificidad fisiológica.
 - Sensible a temperatura y movimiento.
 - Variabilidad interindividual.
 
----
 
 ## 10. Conclusiones
 
@@ -232,4 +222,3 @@ Se comprobó que las tareas cognitivas incrementan la actividad fásica y pueden
 
 La GSR es una herramienta útil para monitoreo de activación autonómica, pero no debe considerarse un indicador exclusivo de estrés.
 
----
