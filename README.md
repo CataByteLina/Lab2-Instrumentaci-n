@@ -5,34 +5,21 @@
 **Universidad Militar Nueva Granada**  
 Ingeniería Biomédica  
 
----
 
 ## 1. Introducción
 
 La eminencia hipotenar
 <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/5383abdb-2b62-4c1b-8d49-b0c9fcd99ede" />
 
-Contexto Teórico: La actividad electrodérmica o EDA (siglas de
-Electrodermal Activity) comprende a todos aquellos fenómenos eléctricos
-que ocurren a nivel de la piel, incluidas las alteraciones de su capacidad
-para conducir la electricidad, a la cual se le conoce como conductancia
-cutánea [1]. Esta propiedad puede aumentar en magnitud ante diversos
-estímulos que incluyen desde una respiración profunda hasta estímulos de
-naturaleza térmica o mecánica que son capaces de infligir dolor, tal y como
-lo han reportado varios estudios [2, 3]. A cada uno de los cambios del nivel
-basal de conductancia o SCL (Skin Conductance Level) se le denomina
-respuesta de conductancia cutánea o SCR (Skin Conductance Response).
-Estas fluctuaciones suelen presentarse como un incremento súbito en la
-conductancia cutánea, la cual regresa a su valor inicial una vez transcurrido
-un tiempo notablemente mayor al que le tomó incrementar su valor [4], tal y
-como se muestra en la Figura 1.
+Contexto Teórico: La actividad electrodérmica o EDA (siglas de Electrodermal Activity) comprende a todos aquellos fenómenos eléctricos que ocurren a nivel de la piel, incluidas las alteraciones de su capacidad para conducir la electricidad, a la cual se le conoce como conductancia cutánea [1]. Esta propiedad puede aumentar en magnitud ante diversosestímulos que incluyen desde una respiración profunda hasta estímulos de naturaleza térmica o mecánica que son capaces de infligir dolor, tal y como lo han reportado varios estudios [2, 3]. A cada uno de los cambios del nivel basal de conductancia o SCL (Skin Conductance Level) se le denomina respuesta de conductancia cutánea o SCR (Skin Conductance Response).
+Estas fluctuaciones suelen presentarse como un incremento súbito en la conductancia cutánea, la cual regresa a su valor inicial una vez transcurrido un tiempo notablemente mayor al que le tomó incrementar su valor [4], tal y como se muestra en la Figura 1.
 
 La Actividad Electrodérmica (EDA) corresponde a las variaciones eléctricas de la piel asociadas a la actividad del sistema nervioso simpático. La medida más utilizada es la Respuesta Galvánica Cutánea (GSR), la cual refleja cambios en la conductancia cutánea debidos a la activación de las glándulas sudoríparas.
 
 La GSR presenta dos componentes principales:
 
-- SCL (Skin Conductance Level) → Componente tónica (estacionaria).
-- SCR (Skin Conductance Response) → Componente fásica (transitoria).
+- SCL (Skin Conductance Level): Componente tónica ó estacionaria.
+- SCR (Skin Conductance Response): Componente fásica ó transitoria.
 
 Esta práctica consistió en diseñar un sistema vestible capaz de medir la GSR en tiempo real y estimar el nivel de estrés durante tareas cognitivas.
 
@@ -58,8 +45,8 @@ La actividad electrodérmica depende de la activación del sistema nervioso simp
 
 Se distinguen:
 
-- **Componente tónica (SCL):** nivel basal de conductancia.
-- **Componente fásica (SCR):** respuestas transitorias ante estímulos.
+Componente tónica (SCL):nivel basal de conductancia.
+Componente fásica (SCR):respuestas transitorias ante estímulos.
 
 La GSR no mide estrés directamente, sino activación autonómica.
 
