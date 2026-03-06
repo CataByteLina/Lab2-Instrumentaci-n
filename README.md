@@ -8,7 +8,6 @@ Ingeniería Biomédica
 
 ## 1. Introducción
 
-La eminencia hipotenar
 
 
 <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/5383abdb-2b62-4c1b-8d49-b0c9fcd99ede" />
@@ -86,6 +85,8 @@ Se implementó una resistencia limitadora ≥ 5 kΩ en serie para garantizar que
 
 
 ### 4.2 Selección del Sitio Anatómico
+
+<img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/5383abdb-2b62-4c1b-8d49-b0c9fcd99ede" />
 
 Se eligió la eminencia hipotenar por:
 
