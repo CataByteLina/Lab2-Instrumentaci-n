@@ -277,11 +277,14 @@ const char* ssid = "nombre_red";
 const char* password = "contraseña";
 ```
 
+
+
 De tal manera se crea un servidor web local, en el que podemos acceder desde el navegador mediante la IP de la tarjeta y asi visualizar en tiempo real la GSR.
 
 <img width="1888" height="1008" alt="image" src="https://github.com/user-attachments/assets/432558c4-5793-435c-9289-bb2d96ad9697" />
 
-Ahora bien, recordemos que cada persona tiene niveles de conductancia diferentes, por lo cual no podemos usar valores absolutos, ya que afectaría en el diagnóstico de cada persona, por lo cual el sistema realiza una normalización basada en el valor basal del usuario que lo use, de la siguiente manera:
+
+Ahora bien, recordemos que cada persona tiene niveles de conductancia diferentes, por lo cual no podemos usar valores absolutos, ya que afectaría en el diagnóstico de cada persona, así que, se programa el sistema para que realice una normalización basada en el valor basal del usuario que lo use, de la siguiente manera:
 
 GSR_normalizado = (GSR_actual - GSR_baseline) / GSR_baseline
 
@@ -290,6 +293,33 @@ Donde:
 - GSR_baseline → promedio inicial del usuario en reposo
 
 Esto permite que el sistema se adapte automáticamente a cada persona.
+
+
+Una vez que se normaliza esta señal, definimos un nivel de activación fisiologica de tal manera que el estrés aumenta la actividad de las glándulas sudoríparas y esto a su vez incrementa la conductancia de la piel.
+
+Lo podemos evidenciar de la siguiente manera:
+
+| EDA normalizado | Estrés   |
+| --------------- | -------- |
+| < 0.02          | Bajo     |
+| 0.02 – 0.05     | Moderado |
+| 0.05 – 0.1      | Alto     |
+| > 0.1           | Muy alto |
+
+o evidenciado en el codigo como:
+
+```cpp
+/* ---- NIVEL DE ESTRES ---- */
+
+    int estres = 0;
+
+    if(eda_norm < 0.02) estres = 10;
+    else if(eda_norm < 0.05) estres = 30;
+    else if(eda_norm < 0.1) estres = 60;
+    else estres = 90;
+```
+
+De tal manera que cuando visualizamos en la página nos aparece el porcentaje de estres de acuerdo a la GSR registrada en tiempo real. 
 
 
 <img src="https://github.com/user-attachments/assets/0487ffaf-5d6b-48c1-b65a-3fa3f6164bf6" width="400">
