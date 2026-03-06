@@ -27,6 +27,8 @@ La GSR presenta dos componentes principales:
 - SCL (Skin Conductance Level): Componente tónica ó estacionaria.
 - SCR (Skin Conductance Response): Componente fásica ó transitoria.
 
+Para la medición de la conductancia galvánica de la piel (GSC) se seleccionó la eminencia hipotenar, debido a que esta región de la palma de la mano presenta una alta densidad de glándulas sudoríparas ecrinas, las cuales están fuertemente controladas por el sistema nervioso simpático. Esta característica permite obtener señales electrodérmicas con mayor amplitud y sensibilidad frente a estímulos emocionales o cognitivos. Además, la superficie de la palma ofrece buen contacto eléctrico con los electrodos, lo que mejora la estabilidad y calidad de la señal registrada [5], [6].
+
 Esta práctica consistió en diseñar un sistema vestible capaz de medir la GSR en tiempo real y estimar el nivel de estrés durante tareas cognitivas.
 
 
@@ -435,3 +437,24 @@ Se comprobó que las tareas cognitivas incrementan la actividad fásica y pueden
 
 La GSR es una herramienta útil para monitoreo de activación autonómica, pero no debe considerarse un indicador exclusivo de estrés.
 
+## 10. Referencias
+
+[1] W. Boucsein, Electrodermal Activity. Nueva York, NY, Estados Unidos:
+Springer Science & Business Media, 2012.
+[2] M. L. Loggia, M. Juneau y C. M. Bushnell, “Autonomic responses to heat
+pain: Heart rate, skin conductance, and their relation to verbal ratings and
+stimulus intensity,” Pain, vol. 152, no. 3, pp. 592–598, 2011.
+https://doi.org/10.1016/j.pain.2010.11.032.
+[3] M. Breimhorst, S. Sandrock, M. Fechir, N. Hausenblas, C. Geber y F. Birklein,
+“Do intensity ratings and skin conductance responses reliably discriminate
+between different stimulus intensities in experimentally induced pain?” The
+Journal of Pain, vol. 12, no. 1, pp. 61–70, 2011.
+https://doi.org/10.1016/j.jpain.2010.04.012.
+[4] B. Figner y R. O. Murphy, “Using skin conductance in judgment and decision
+making research,” en A Handbook of Process Tracing Methods for Decision
+Research, M. Schulte-Mecklenbeck, A. Kuehberger y R. Ranyard, Eds.
+Nueva York, NY, Estados Unidos: Psychology Press, 2011, pp. 163–184.
+
+[5] W. Boucsein, Electrodermal Activity, 2nd ed. New York, NY, USA: Springer, 2012.
+
+[6] R. S. Edelberg, “Electrical properties of the skin,” Methods in Psychophysiology, New York, NY, USA: Appleton-Century-Crofts, pp. 1–53, 1967.
