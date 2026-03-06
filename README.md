@@ -98,6 +98,7 @@ Se eligió la eminencia hipotenar por:
 
 
 ## 5. Parte B – Adquisición y Visualización
+![WhatsApp Image 2026-03-05 at 11 28 15 AM](https://github.com/user-attachments/assets/0487ffaf-5d6b-48c1-b65a-3fa3f6164bf6)
 
 ### 5.1 Señal en Reposo
 
@@ -152,6 +153,9 @@ Esto confirma la relación entre carga cognitiva y variaciones en la GSR.
 
 
 ## 8. Análisis de Resultados
+
+![WhatsApp Image 2026-03-04 at 9 44 20 PM](https://github.com/user-attachments/assets/ad64b5eb-3619-48b7-8937-982f73653f8b)
+
 
 ### 8.1 Monitoreo Ambulatorio
 
