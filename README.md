@@ -99,8 +99,20 @@ Se eligió la eminencia hipotenar por:
 
 ## 5. Parte B – Adquisición y Visualización
 
-<img src="https://github.com/user-attachments/assets/0487ffaf-5d6b-48c1-b65a-3fa3f6164bf6" width="400">
+En el apartado de adquisición, filtrado y visualización de manera inalámbrica se realizo por medio de un microcontrolador ESP-32 Dev Kit de la siguiente manera:
 
+1. Lee la señal analógica del sensor GSR.
+2. Aplica un filtrado simple para reducir ruido.
+3. Normaliza la señal según el usuario (calibración individual).
+4. Clasifica el nivel de estrés.
+5. Envía los datos por WiFi.
+6. Muestra la señal en tiempo real en una gráfica web.
+
+Todo se visualiza desde cualquier navegador conectado a la misma red asi como se observa en la figura 2.
+
+
+<img src="https://github.com/user-attachments/assets/0487ffaf-5d6b-48c1-b65a-3fa3f6164bf6" width="400">
+Figura 2.  Visualización inalámbrica 
 
 ### 5.1 Señal en Reposo
 
