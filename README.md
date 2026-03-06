@@ -8,13 +8,7 @@ Ingeniería Biomédica
 
 ## 1. Introducción
 
-
-
-<img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/5383abdb-2b62-4c1b-8d49-b0c9fcd99ede" />
-
-
-
-
+En este laboratorio se implementó un sistema vestible para medir la conductancia galvánica de la piel (GSR) y analizar sus variaciones en diferentes condiciones, integrando además un sistema de transmisión inalámbrica con ESP32 para la visualización de los datos en tiempo real.
 
 Contexto Teórico: La actividad electrodérmica o EDA (siglas de Electrodermal Activity) comprende a todos aquellos fenómenos eléctricos que ocurren a nivel de la piel, incluidas las alteraciones de su capacidad para conducir la electricidad, a la cual se le conoce como conductancia cutánea [1]. Esta propiedad puede aumentar en magnitud ante diversosestímulos que incluyen desde una respiración profunda hasta estímulos de naturaleza térmica o mecánica que son capaces de infligir dolor, tal y como lo han reportado varios estudios [2, 3]. A cada uno de los cambios del nivel basal de conductancia o SCL (Skin Conductance Level) se le denomina respuesta de conductancia cutánea o SCR (Skin Conductance Response).
 Estas fluctuaciones suelen presentarse como un incremento súbito en la conductancia cutánea, la cual regresa a su valor inicial una vez transcurrido un tiempo notablemente mayor al que le tomó incrementar su valor [4], tal y como se muestra en la Figura 1.
