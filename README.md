@@ -97,12 +97,17 @@ Se eligió la eminencia hipotenar por:
 
 ### 4.3 Componentes del Sistema
 
-- Electrodos Ag/AgCl
+- Electrodos con modenas (cobre y níquel)
 - Resistencia limitadora ≥ 5 kΩ
 - Amplificador operacional
 - Microcontrolador ESP32
 - Módulo Bluetooth
 - Fuente DC 3.3–5 V
+- Guante adaptado
+- Resistencia 68kΩ
+- Condensador 1 μF
+  <img width="600" height="387" alt="image" src="https://github.com/user-attachments/assets/dc8c0d23-e66b-47d5-8637-ff7ff48dfc83" />
+
 
 
 ## 5. Parte B – Adquisición y Visualización
