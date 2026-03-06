@@ -15,6 +15,8 @@ La eminencia hipotenar
 
 
 
+
+
 Contexto Teórico: La actividad electrodérmica o EDA (siglas de Electrodermal Activity) comprende a todos aquellos fenómenos eléctricos que ocurren a nivel de la piel, incluidas las alteraciones de su capacidad para conducir la electricidad, a la cual se le conoce como conductancia cutánea [1]. Esta propiedad puede aumentar en magnitud ante diversosestímulos que incluyen desde una respiración profunda hasta estímulos de naturaleza térmica o mecánica que son capaces de infligir dolor, tal y como lo han reportado varios estudios [2, 3]. A cada uno de los cambios del nivel basal de conductancia o SCL (Skin Conductance Level) se le denomina respuesta de conductancia cutánea o SCR (Skin Conductance Response).
 Estas fluctuaciones suelen presentarse como un incremento súbito en la conductancia cutánea, la cual regresa a su valor inicial una vez transcurrido un tiempo notablemente mayor al que le tomó incrementar su valor [4], tal y como se muestra en la Figura 1.
 
