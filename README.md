@@ -106,7 +106,9 @@ Se eligió la eminencia hipotenar por:
 - Guante adaptado
 - Resistencia 68kΩ
 - Condensador 1 μF
-  <img width="600" height="387" alt="image" src="https://github.com/user-attachments/assets/dc8c0d23-e66b-47d5-8637-ff7ff48dfc83" />
+
+
+  <img width="400" height="387" alt="image" src="https://github.com/user-attachments/assets/dc8c0d23-e66b-47d5-8637-ff7ff48dfc83" />
 
 
 
