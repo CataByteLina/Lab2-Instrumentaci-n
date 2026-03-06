@@ -388,6 +388,8 @@ Esto confirma la relación entre carga cognitiva y variaciones en la GSR.
 
 <img src="https://github.com/user-attachments/assets/ad64b5eb-3619-48b7-8937-982f73653f8b" width="400">
 
+Los resultados obtenidos demuestran que la medición de la conductancia galvánica de la piel (GSC) permite identificar cambios en la actividad del sistema nervioso simpático. En condiciones de reposo se observó un nivel basal estable con pequeñas fluctuaciones, mientras que estímulos fisiológicos como la inspiración profunda generaron respuestas fásicas transitorias. Asimismo, durante tareas cognitivas se evidenció un aumento tanto en la frecuencia de las respuestas SCR como en el nivel basal SCL, lo que indica una mayor activación simpática. Finalmente, la implementación de comunicación inalámbrica mediante el ESP32 permitió transmitir y visualizar los datos en tiempo real, facilitando la estimación del nivel de estrés del usuario.
+
 ### 8.1 Monitoreo Ambulatorio
 
 Aplicaciones:
@@ -403,15 +405,6 @@ Limitaciones:
 - Sudoración no asociada a estrés.
 - Ruido eléctrico.
 
-### 8.2 Aplicación en Neonatos
-
-Posible utilidad en monitoreo autonómico temprano.
-
-Limitaciones:
-
-- Alta sensibilidad cutánea.
-- Regulación térmica inmadura.
-- Mayor variabilidad fisiológica.
 
 
 ## 9. Discusión
