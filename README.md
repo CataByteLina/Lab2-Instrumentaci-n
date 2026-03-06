@@ -113,8 +113,8 @@ Todo se visualiza desde cualquier navegador conectado a la misma red asi como se
 ```cpp
 #include <WiFi.h>
 
-const char* ssid = "TU_WIFI";
-const char* password = "TU_PASSWORD";
+const char* ssid = "nombre_red";
+const char* password = "contraseña";
 
 WiFiServer server(80);
 
@@ -268,8 +268,19 @@ setInterval(actualizar,100);\
 ```
 IDE Arduino
 
+Al funcionar por WiFi, la ESP-32 se conecta a la red deseada 
+
+```cpp
+#include <WiFi.h>
+
+const char* ssid = "nombre_red";
+const char* password = "contraseña";
+```
+
+
 
 <img src="https://github.com/user-attachments/assets/0487ffaf-5d6b-48c1-b65a-3fa3f6164bf6" width="400">
+
 Figura 2.  Visualización inalámbrica 
 
 ### 5.1 Señal en Reposo
