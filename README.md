@@ -98,8 +98,8 @@ Se eligió la eminencia hipotenar por:
 
 
 ## 5. Parte B – Adquisición y Visualización
-![WhatsApp Image 2026-03-05 at 11 28 15 AM](https://github.com/user-attachments/assets/0487ffaf-5d6b-48c1-b65a-3fa3f6164bf6)
 
+<img src="![WhatsApp Image 2026-03-05 at 11 28 15 AM](https://github.com/user-attachments/assets/0487ffaf-5d6b-48c1-b65a-3fa3f6164bf6)" width="400">
 ### 5.1 Señal en Reposo
 
 En reposo se observa:
