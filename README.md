@@ -118,18 +118,7 @@ Durante una inspiración profunda se registró:
 - Retorno progresivo al valor basal.
 - Activación simpática transitoria.
 
-Valores registrados:
 
-- Conductancia mínima: __________
-- Conductancia máxima: __________
-
-### 5.3 Clasificación de Estrés
-
-| Nivel de Estrés | Rango de Conductancia |
-|-----------------|-----------------------|
-| Bajo            | __________            |
-| Moderado        | __________            |
-| Alto            | __________            |
 
 
 ## 6. Transmisión Inalámbrica
