@@ -110,6 +110,164 @@ En el apartado de adquisición, filtrado y visualización de manera inalámbrica
 
 Todo se visualiza desde cualquier navegador conectado a la misma red asi como se observa en la figura 2.
 
+```cpp
+#include <WiFi.h>
+
+const char* ssid = "TU_WIFI";
+const char* password = "TU_PASSWORD";
+
+WiFiServer server(80);
+
+const int pinGSR = 34;
+
+/* PARAMETROS */
+
+float filtro = 0;
+float alpha = 0.15;   // filtro suave
+
+float baseline = 0;
+bool calibrado = false;
+
+unsigned long tiempoCalibracion = 5000;
+unsigned long inicio;
+
+String pagina = "";
+
+void setup() {
+
+  Serial.begin(115200);
+
+  WiFi.begin(ssid, password);
+
+  Serial.print("Conectando");
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+
+  Serial.println("");
+  Serial.println("WiFi conectado");
+  Serial.println(WiFi.localIP());
+
+  server.begin();
+
+  inicio = millis();
+}
+
+void loop() {
+
+  WiFiClient client = server.available();
+
+  if (client) {
+
+    String request = client.readStringUntil('\r');
+    client.flush();
+
+    /* ---- LECTURA SENSOR ---- */
+
+    int lectura = analogRead(pinGSR);
+
+    /* ---- FILTRO SIMPLE ---- */
+
+    filtro = alpha * lectura + (1 - alpha) * filtro;
+
+    int valor = (int)filtro;
+
+    /* ---- CALIBRACION BASELINE ---- */
+
+    if(!calibrado){
+
+      baseline = baseline + valor;
+
+      if(millis() - inicio > tiempoCalibracion){
+
+        baseline = baseline / (tiempoCalibracion/100);
+
+        calibrado = true;
+
+        Serial.println("Calibracion completa");
+        Serial.print("Baseline: ");
+        Serial.println(baseline);
+      }
+
+    }
+
+    /* ---- NORMALIZACION ---- */
+
+    float eda_norm = 0;
+
+    if(calibrado){
+      eda_norm = (valor - baseline) / baseline;
+    }
+
+    /* ---- NIVEL DE ESTRES ---- */
+
+    int estres = 0;
+
+    if(eda_norm < 0.02) estres = 10;
+    else if(eda_norm < 0.05) estres = 30;
+    else if(eda_norm < 0.1) estres = 60;
+    else estres = 90;
+
+    /* ---- PAGINA WEB ---- */
+
+    pagina = "<!DOCTYPE html>\
+<html>\
+<head>\
+<title>GSR ESP32</title>\
+<script src='https://cdn.jsdelivr.net/npm/chart.js'></script>\
+</head>\
+<body>\
+<h2>Conductancia Cutanea (GSR)</h2>\
+<h3>Nivel de Estres: " + String(estres) + "%</h3>\
+<canvas id='grafica'></canvas>\
+<script>\
+let datos=[];\
+let labels=[];\
+let chart=new Chart(document.getElementById('grafica'),{\
+type:'line',\
+data:{labels:labels,datasets:[{label:'GSR',data:datos,borderColor:'blue',fill:false}]},\
+options:{animation:false}\
+});\
+function actualizar(){\
+fetch('/data')\
+.then(res=>res.text())\
+.then(valor=>{\
+datos.push(parseInt(valor));\
+labels.push('');\
+if(datos.length>100){datos.shift();labels.shift();}\
+chart.update();\
+});\
+}\
+setInterval(actualizar,100);\
+</script>\
+</body>\
+</html>";
+
+    if (request.indexOf("/data") != -1) {
+
+      client.println("HTTP/1.1 200 OK");
+      client.println("Content-Type: text/plain");
+      client.println();
+      client.println(valor);
+
+    }
+    else {
+
+      client.println("HTTP/1.1 200 OK");
+      client.println("Content-Type: text/html");
+      client.println();
+      client.println(pagina);
+
+    }
+
+    client.stop();
+  }
+}
+```
+IDE Arduino
+
 
 <img src="https://github.com/user-attachments/assets/0487ffaf-5d6b-48c1-b65a-3fa3f6164bf6" width="400">
 Figura 2.  Visualización inalámbrica 
