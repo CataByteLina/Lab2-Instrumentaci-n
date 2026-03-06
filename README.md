@@ -145,8 +145,8 @@ Esto confirma la relación entre carga cognitiva y variaciones en la GSR.
 
 ## 8. Análisis de Resultados
 
-![WhatsApp Image 2026-03-04 at 9 44 20 PM](https://github.com/user-attachments/assets/ad64b5eb-3619-48b7-8937-982f73653f8b)
 
+<img src="https://github.com/user-attachments/assets/ad64b5eb-3619-48b7-8937-982f73653f8b" width="400">
 
 ### 8.1 Monitoreo Ambulatorio
 
