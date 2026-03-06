@@ -9,6 +9,8 @@ Ingeniería Biomédica
 ## 1. Introducción
 
 La eminencia hipotenar
+
+
 <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/5383abdb-2b62-4c1b-8d49-b0c9fcd99ede" />
 
 
